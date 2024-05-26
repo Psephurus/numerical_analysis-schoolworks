@@ -2,7 +2,7 @@
 %Click in MATLAB figure window to locate data point.
 % Continue, to add more points.
 % Press return to terminate program.
-function clickinterp
+addpath('../fundamentals');
 xl=-3;xr=3;yb=-3;yt=3;
 plot([xl xr],[0 0],'k',[0 0],[yb yt],'k');grid on;
 xlist=[];ylist=[];
