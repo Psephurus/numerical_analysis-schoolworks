@@ -54,7 +54,7 @@ def main():
     x = x * x               (x      = x^128)
     result = result * x     (result = x^255)
     """
-    
+
     # 从键盘获取x的值
     x = int(input("Enter the value of x: "))
     exponent = 255
