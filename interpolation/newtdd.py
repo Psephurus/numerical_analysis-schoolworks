@@ -1,6 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from nest import nest
+
+from os import getcwd
+from sys import path
+path.append(getcwd())
+
+from fundamentals import nest
+
 
 def newtdd(x, y, n):
     v = [[0] * n for _ in range(n)]

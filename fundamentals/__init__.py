@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from fundamentals.nest import *
+from .nest import nest
 
 __all__ = ['nest']
